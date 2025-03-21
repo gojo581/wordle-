@@ -56,7 +56,7 @@ if(word==inputElement.value){alert('you win');
     mispar=0
 }
 
- if(mispar==skibidi){alert("you lose you are a big loser lol")}
+ if(mispar==skibidi){alert("you lose you are a big loser lol")&&window.location.replace(file:///C:/Users/gadi1/OneDrive/%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%94%D7%A2%D7%91%D7%95%D7%93%D7%94/%D7%91%D7%99%D7%AA%20%D7%A1%D7%A4%D7%A8/index.html)}
 
 }
 
