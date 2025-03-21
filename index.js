@@ -56,7 +56,7 @@ if(word==inputElement.value){alert('you win');
     mispar=0
 }
 
- if(mispar==skibidi){alert("you lose you are a big loser lol")||window.location.replace(https://gojo581.github.io/wordle-/)}
+ if(mispar==skibidi){alert("you lose you are a big loser lol")||window.location.replace('https://gojo581.github.io/wordle-/')}
 
 }
 
