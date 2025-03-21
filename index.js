@@ -26,7 +26,7 @@
 
 
 
-let word = 'ohio'
+let word = 'soul'
 let mispar= 0
 let skibidi = 6
 function guess(){
