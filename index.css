@@ -1,15 +1,27 @@
- div{
-    
-  
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
-width: 20%;
-
-gap: 15px;
+body {
+  background-color: chocolate;
+  font-family: Arial, sans-serif;
 }
 
-.letter{
-    border: solid ;
-padding: 10px;
-text-align: center;
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.guess-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.letter {
+  background-color: blue;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  width: 50px;
 }
